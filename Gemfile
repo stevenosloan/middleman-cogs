@@ -3,6 +3,9 @@ ruby '2.3.1'
 
 gemspec
 
+gem 'middleman', github: 'middleman/middleman',
+                 branch: 'feature/pipeline'
+
 group :test do
   gem 'rake',  '~> 11.1'
   gem 'rspec', '~> 3.4.0'
